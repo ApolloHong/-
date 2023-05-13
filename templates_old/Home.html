@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Twitter - Home</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .navbar {
+      background-color: #fff;
+    }
+
+    .navbar-brand img {
+      max-height: 40px;
+    }
+
+    .jumbotron {
+      background-color: #fff;
+    }
+
+    .btn-custom {
+      background-color: #007bff;
+      border-color: #007bff;
+    }
+
+    .btn-custom:hover {
+      background-color: #0069d9;
+      border-color: #0062cc;
+    }
+
+    .btn-custom:active {
+      background-color: #0062cc;
+      border-color: #005cbf;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="{{ url_for('static', filename='SPEITlogo.png') }}" alt="Logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+	<div class="collapse navbar-collapse" id="navbarNav">
+	
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Welcome to Twitter!</h1>
+      <p class="lead">Here's some content for your homepage.</p>
+      <div class="text-center">
+        <a href="#" class="btn btn-primary btn-lg btn-custom mr-3">Show</a>
+        <a href="#" class="btn btn-primary btn-lg btn-custom">Predict</a>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+

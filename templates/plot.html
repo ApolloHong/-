@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RODT - Plot</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <style>
+    .button-container {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="{{ url_for('static', filename='SPEITlogo.png') }}" alt="Logo">
+    </div>
+    
+    <h1>Plot</h1>
+    
+    <div class="plot-container">
+      <img src="{{ plot_path }}" alt="Plot">
+    </div>
+    
+    <div class="button-container">
+      <a href="/" class="button">Home</a>
+    </div>
+  </div>
+</body>
+</html>
+
